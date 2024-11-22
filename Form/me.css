@@ -1,0 +1,75 @@
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  
+  .client-info-header {
+    background-color: #ffd1dc; 
+    font-size: 18px;
+  }
+  
+  .flavor-header {
+    background-color: #f3d1b0; 
+    font-size: 18px;
+  }
+  
+  .customization-header {
+    background-color: #ffe680; 
+    font-size: 18px;
+  }
+  
+
+  td {
+    font-size: 16px;
+  }
+  
+  .name-label, .email-label, .phone-label, .date-label {
+    background-color: #ffebee; 
+  }
+  
+  .flavor-label, .color-label {
+    background-color: #fff6e0; 
+  }
+  
+  .toppings-label, .size-label, .argument-label, .delivery-label, .message-label {
+    background-color: #fffbe0; 
+  }
+  
+  .name-data, .email-data, .phone-data, .date-data,
+  .flavor-data, .color-data,
+  .toppings-data, .size-data, .argument-data, .delivery-data, .message-data {
+    background-color: #f9f9f9; 
+  }
+  
+
+  th {
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  td {
+    min-width: 100px; 
+  }
+  
+  @media (max-width: 768px) {
+    table {
+      width: 100%;
+      font-size: 14px;
+    }
+  
+    th, td {
+      padding: 8px;
+    }
+  }
+  
